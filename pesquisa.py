@@ -13,7 +13,7 @@ excelente = 0
 for entrevistado in range (1, 51):
     entrevistado = input("Digite seu nome: ")
     idade = int(input("Digite sua idade: "))
-    opinião = input("Digite a opinião desejada (ruim, bom ou excelente): ")
+    opinião = input("Digite a opinião desejada (ruim, bom ou excelente) a opinião deve ser digitada em letras minusculas: ")
     print ("O entrevistado", entrevistado, "tem", idade, "anos e sua opinião é", opinião)
 
     # Incrementa o contador de acordo com a opinião do entrevistado
